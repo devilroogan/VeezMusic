@@ -807,10 +807,6 @@ async def lol_cb(b, cb):
             reply_markup=bttn,
         )
         return
-    useer_id = int(useer_id)
-    if cb.from_user.id != useer_id:
-        
-    x = int(x)
     try:
         cb.message.reply_to_message.from_user.first_name
     except:
